@@ -1,31 +1,31 @@
-Web Page Title Scraper
+### Web Page Title Scraper
 This is a simple Python command-line utility for scraping the title of a given webpage. It handles user input for the URL and the output file, and includes basic error handling for common issues like network errors or invalid URLs. The script also saves a record of the scrape, including the URL, title, and timestamp.
 
-Features
-Scrapes the title from any public webpage.
+## Features
+* Scrapes the title from any public webpage.
 
-Prompts the user for a URL and a custom output filename.
+* Prompts the user for a URL and a custom output filename.
 
-Automatically handles adding https:// if a protocol is not provided.
+* Automatically handles adding https:// if a protocol is not provided.
 
-Records the scraped title, URL, and timestamp in a text file.
+* Records the scraped title, URL, and timestamp in a text file.
 
-Provides an option to view previous scrape results.
+* Provides an option to view previous scrape results.
 
-Requirements
+## Requirements
 This script requires the following Python libraries:
 
 requests for making HTTP requests.
 
 beautifulsoup4 for parsing the HTML content.
 
-Installation
+## Installation
 You can install the required libraries using pip:
 
-pip install requests beautifulsoup4
+``pip install requests beautifulsoup4``
 
-How to Run
-Save the script as web_scraper.py.
+## How to Run
+Save the script as Task_Automation.py.
 
 Open your terminal or command prompt.
 
@@ -33,6 +33,6 @@ Navigate to the directory where you saved the file.
 
 Run the script using the Python interpreter:
 
-python web_scraper.py
+``python Task_Automation.py``
 
 The script will present a menu with options to scrape a new page, view previous results, or exit.
