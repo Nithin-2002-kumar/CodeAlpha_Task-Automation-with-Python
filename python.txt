@@ -1,0 +1,4 @@
+URL: https://www.python.org
+Title: Welcome to Python.org
+Scraped at: 2025-09-01 15:02:09
+Response status: 200
